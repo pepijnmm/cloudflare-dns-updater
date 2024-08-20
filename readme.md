@@ -22,8 +22,6 @@ Generate an api key at [API Tokens Page](https://dash.cloudflare.com/profile/api
 }
 ```
 
-In legacy versions we used the global api key to authenticate with Cloudflare API, see [the legacy sample here](./config.json.legacy.sample)
-
 ### Run
 ```sh
 $ node index.js
