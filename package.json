@@ -1,23 +1,24 @@
 {
-  "name": "cloudflare-dns-updater",
-  "version": "1.0.0",
-  "description": "NodeJS script for updating cloudflare dns record",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Chihim Ng",
-  "license": "MIT",
-  "dependencies": {
-    "axios": "^0.21.1",
-    "public-ip": "^4.0.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://chihimng@github.com/chihimng/cloudflare-dns-updater.git"
-  },
-  "bugs": {
-    "url": "https://github.com/chihimng/cloudflare-dns-updater/issues"
-  },
-  "homepage": "https://github.com/chihimng/cloudflare-dns-updater#readme"
+	"name": "cloudflare-dns-updater",
+	"version": "1.0.0",
+	"description": "NodeJS script for updating cloudflare dns record",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "node index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Chihim Ng",
+	"license": "MIT",
+	"dependencies": {
+		"public-ip": "^7.0.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://chihimng@github.com/chihimng/cloudflare-dns-updater.git"
+	},
+	"bugs": {
+		"url": "https://github.com/chihimng/cloudflare-dns-updater/issues"
+	},
+	"homepage": "https://github.com/chihimng/cloudflare-dns-updater#readme"
 }

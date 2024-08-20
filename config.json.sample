@@ -1,4 +1,6 @@
 {
   "hostname": "",
-  "bearerToken": ""
+  "bearerToken": "",
+	"myIp4": "",
+	"myIp6": ""
 }
